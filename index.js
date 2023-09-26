@@ -161,7 +161,7 @@ app.post("/delete",(req,res)=>{
 
 
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-    console.log(`Serving at http://localhost:${port}`);
+const port1 = process.env.PORT || 3000;
+app.listen(port1, () => {
+    console.log(`Serving at http://localhost:${port1}`);
 });
